@@ -20,7 +20,9 @@ Prosjektet er et læringsprosjekt i agentstyrt utvikling. Marius skriver spesifi
 src/app/
   app.ts, app.config.ts, app.routes.ts   Rotkomponent og oppsett
   incidents/                             Domenet: typer, store, komponenter for hendelser
-    incident.ts                          Plassholder, erstattes av Incident og IncidentEvent i modul 2
+    incident.ts                          Incident: tilstanden som vises
+    incident-event.ts                    IncidentEvent: hendelsene som har skjedd
+    incident-event.fixtures.ts           Testdata: normal strøm, duplikater, feil rekkefølge, hull
     incident-card.ts                     Uferdig komponent, bygges ut i modul 5
 ```
 
