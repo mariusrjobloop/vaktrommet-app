@@ -57,3 +57,14 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Læringslogg
+
+Én blokk per modul, skrevet når PR-en er merget.
+
+### Modul 3 – Simulert hendelsesstrøm
+
+- Prompt som fungerte: «Les planen og casen og legg frem en plan før du koder», og deretter å godkjenne testene før implementasjonen.
+- Hva agenten gjorde riktig: delte simulatoren i en ren tidsplan og en RxJS-avspiller, slik at nesten alt kunne testes uten timere. Alle 55 testene ble grønne, og ødelagt kode med vilje ga røde tester.
+- Hva jeg måtte rette, og hvordan jeg oppdaget det: svaret mitt om nettbrudd var tvetydig og stred mot issuet. Agenten spurte før den kodet. Jeg la også til et scenario agenten ikke hadde tenkt på: to vaktposter som oppdaterer samme hendelse offline. Det ble lagt inn under modul 7.
+- Angular-konsept jeg lærte: varme strømmer (`Subject`) i transportlaget, og falske timere i Vitest for å teste tid.
