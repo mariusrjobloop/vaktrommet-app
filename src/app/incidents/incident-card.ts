@@ -1,10 +1,7 @@
-import { Component, computed, input } from '@angular/core';
-import { Incident } from './incident';
+import { Component } from '@angular/core';
 
 @Component({
-    selector: 'incident',
-    template: `
-    <div>Incident Card</div>
-    `
+  selector: 'app-incident-card',
+  template: `<div>Incident Card</div>`,
 })
 export class IncidentCard {}
