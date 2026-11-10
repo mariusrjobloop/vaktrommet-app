@@ -33,8 +33,8 @@ Ny kode for hendelser legges i `src/app/incidents/`. Opprett nye toppmapper (for
 | `npm start` | Utviklingsserver på http://localhost:4200 |
 | `npm run build` | Produksjonsbygg til `dist/` |
 | `npm test` | Enhetstester i watch-modus |
-| `npm run test:ci` | Enhetstester én gang (legges til i modul 1) |
-| `npm run lint` | ESLint (legges til i modul 1) |
+| `npm run test:ci` | Enhetstester én gang |
+| `npm run lint` | ESLint |
 
 Før du sier at en oppgave er ferdig, skal `lint`, `test:ci` og `build` være grønne. Hvis en kommando ikke finnes ennå, skal du si det. Ikke hopp over den i stillhet.
 
