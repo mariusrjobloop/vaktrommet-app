@@ -7,3 +7,4 @@ import { Incident } from './incident';
     <div>Incident Card</div>
     `
 })
+export class IncidentCard {}
